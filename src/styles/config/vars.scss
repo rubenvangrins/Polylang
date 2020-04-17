@@ -1,0 +1,123 @@
+:root {
+    // colors
+    --color-black: #000000;
+    --color-white: #ffffff;
+
+    // media
+    --min-mobile: 480px;
+    --min-tablet: 768px;
+    --min-desktop: 1180px;
+    --min-desktop-lg: 1440px;
+
+    // base
+    --font-s-base: 3.836vw; // 14px
+    --lh-base: 7.123vw; // 14px
+
+    // heading XXXL
+    --font-s-heading-xxxl: 27.778vw; // 100px
+    --lh-heading--xxxl: 30.556vw; // 110px
+
+    // heading XXL
+    --font-s-heading-xxl: 14.795vw; // 54px
+    --lh-heading-xxl: 15.068vw; // 55px
+
+    // heading XL
+    --font-s-heading-xl: 12.329vw; // 45px
+    --lh-heading-xl: 13.151vw; // 48px
+    --ls-heading-xl: -0.11vw; // -0.4px
+
+    // heading LG
+    --font-s-heading-lg: 9.722vw; // 35px
+    --lh-heading-lg: 11.667vw; // 42px
+
+    // heading MD
+    --font-s-heading-md: 5vw; // 18px
+    --lh-heading-md: 6.389vw; // 23px
+
+    // heading RG
+    --font-s-heading-rg: 6.944vw; // 25px
+    --lh-heading-rg: 9.722vw; // 35px
+
+    // heading SM
+    --font-s-heading-sm: 6.944vw; // 25px
+    --lh-heading-sm: 8.333vw; // 30px
+
+    // heading XS
+    --font-s-heading-xs: 5vw; // 18px
+    --lh-heading-xs: 6.111vw; // 22px
+
+    /* easings */
+    --ease-expo-in: cubic-bezier(0.95, 0.05, 0.795, 0.035);
+    --ease-expo-out: cubic-bezier(0.19, 1, 0.22, 1);
+    --ease-expo-in-out: cubic-bezier(1, 0, 0, 1);
+    --ease-power3-in: cubic-bezier(0.895, 0.03, 0.685, 0.22);
+    --ease-power3-out: cubic-bezier(0.165, 0.84, 0.44, 1);
+    --ease-power3-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+
+    // spacings
+    --spacing-15: 4.11vw;
+    --spacing-20: 5.333vw;
+    --spacing-30: 8.219vw;
+    --spacing-45: 12.329vw;
+    --spacing-60: 16.438vw;
+    --spacing-75: 20vw;
+    --spacing-90: 24.658vw;
+    --spacing-120: 32.877vw;
+    --spacing-150: 40vw;
+    --spacing-180: 49.315vw;
+    --spacing-240: 65.753vw;    
+}
+
+@include media(min-tablet) {
+    :root {
+      // base
+      --font-s-base: 0.972vw; // 14px
+      --lh-base: 1.806vw; // 14px
+  
+      // heading XXXL
+      --font-s-heading-xxxl: 16.667vw; // 240px
+      --lh-heading-xxxl: 14.444vw; // 208px
+  
+      // heading XXL
+      --font-s-heading-xxl: 9.028vw; // 130px
+      --lh-heading-xxl: 7.639vw; // 110px
+  
+      // heading XL
+      --font-s-heading-xl: 7.639vw; // 110px
+      --lh-heading-xl: 7.639vw; // 110px
+      --ls-heading-xl: 0; // 0
+  
+      // heading LG
+      --font-s-heading-lg: 5.903vw; // 85px
+      --lh-heading-lg: 6.25vw; // 90px
+  
+      // heading MD
+      --font-s-heading-md: 2.778vw; // 40px
+      --lh-heading-md: 3.472vw; // 50px
+  
+      // heading RG
+      --font-s-heading-rg: 2.083vw; // 30px
+      --lh-heading-rg: 3.472vw; // 50px
+  
+      // heading SM
+      --font-s-heading-sm: 1.736vw; // 25px
+      --lh-heading-sm: 2.083vw; // 30px
+  
+      // heading XS
+      --font-s-heading-xs: 1.25vw; // 18px
+      --lh-heading-xs: 1.528vw; // 22px
+  
+      // spacings
+      --spacing-15: 1.042vw;
+      --spacing-20: 1.389vw;
+      --spacing-30: 2.083vw;
+      --spacing-45: 3.125vw;
+      --spacing-60: 4.167vw;
+      --spacing-75: 5.208vw;
+      --spacing-90: 6.25vw;
+      --spacing-120: 8.333vw;
+      --spacing-150: 10.417vw;
+      --spacing-180: 12.5vw;
+      --spacing-240: 16.667vw;
+    }
+  }
